@@ -1,0 +1,115 @@
+.autumn {
+  background-image: url(../images/autumn.jpg);
+}
+
+.winter {
+  background-image: url(../images/winter.jpg);
+}
+
+.summer {
+  background-image: url(../images/summer.jpg);
+}
+
+.spring {
+  background-image: url(../images/spring.jpg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.answer {
+  color: aliceblue;
+
+  font-size: 56px;
+  margin-top: 20%;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.alert {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+
+  color: deeppink;
+
+  padding: 24px;
+  margin-bottom: 12px;
+}
+
+.seven_days {
+  background-color: rgb(195, 188, 180, 0.1);
+  font-size: 12px;
+}
+
+.six_days {
+  background-color: rgb(195, 188, 180, 0.3);
+  font-size: 18px;
+}
+
+.five-days {
+  background-color: rgb(195, 188, 180, 0.4);
+  font-size: 24px;
+}
+
+.four_days {
+  background-color: rgb(195, 188, 180, 0.5);
+  font-size: 28px;
+}
+
+.three_days {
+  background-color: rgb(195, 188, 180, 0.7);
+  font-size: 32px;
+}
+
+.two_days {
+  background-color: rgb(195, 188, 180, 0.9);
+  font-size: 36px;
+}
+
+.one_day {
+  background-color: grey;
+  font-size: 42px;
+}
+
+.no-one {
+  opacity: 0;
+}
+
+.today {
+  background: #1e9600; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ff0000,
+    #fff200,
+    #1e9600
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff0000,
+    #fff200,
+    #1e9600
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 42px;
+}
